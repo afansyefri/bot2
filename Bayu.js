@@ -216,7 +216,7 @@ Badmin: 'Bot Harus Jadi Admin Kalo Mau Menggunakan Fiturnya',
         if (new Date() * 1 - settingstatus > 1000) {
         let _uptime = process.uptime() * 1000;
         let uptimer = clockString(_uptime);
-        await Ryuu.setStatus(`KAGUYA-BOT V3 | ⏰${uptimer}`).catch((_) => _);
+        await Ryuu.setStatus(`Ayaka | ⏰${uptimer}`).catch((_) => _);
         settingstatus = new Date() * 1;
         }}
         const troli =  {key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 2022, status: 200, thumbnail: fakeRyuu, surface: 200, message: `Made By ${ownername}`, orderTitle: 'BAYU OFC', sellerJid: '0@s.whatsapp.net'} } }        
