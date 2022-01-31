@@ -216,7 +216,7 @@ Badmin: 'Bot Harus Jadi Admin Kalo Mau Menggunakan Fiturnya',
         if (new Date() * 1 - settingstatus > 1000) {
         let _uptime = process.uptime() * 1000;
         let uptimer = clockString(_uptime);
-        await Ryuu.setStatus(`Ayaka | ⏰${uptimer}`).catch((_) => _);
+        await Ryuu.setStatus(`KAGUYA-BOT V3 | ⏰${uptimer}`).catch((_) => _);
         settingstatus = new Date() * 1;
         }}
         const troli =  {key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 2022, status: 200, thumbnail: fakeRyuu, surface: 200, message: `Made By ${ownername}`, orderTitle: 'BAYU OFC', sellerJid: '0@s.whatsapp.net'} } }        
@@ -413,7 +413,7 @@ Ryuu.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                 quoted: {
                     key: {
                         fromMe: false,
-                        participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289523258649-1604595598@g.us" } : {})
+                        participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283145831517-1604595598@g.us" } : {})
                     },
                     message: {
                         "imageMessage": {
@@ -2094,7 +2094,6 @@ break
 case 'nekopoi1':
 if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
 qute = fs.readFileSync('./media/Ryuu.jpg') 
 Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: https://www2.zippyshare.com/d/z9dcY6Nr/791216/%5bNekoPoi%5d_Akina_to_Onsen_de_H_Shiyo%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
@@ -2102,7 +2101,6 @@ Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: http
                  case 'nekopoi2':
                  if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
 qute = fs.readFileSync('./media/bayuofc.jpg') 
 Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: https://www4.zippyshare.com/d/j7PFLGUY/946757/%5bNekoPoi%5d_Tsuma_ga_Kirei_ni_Natta_Wake_-_02_%5b360P%5d_%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
@@ -2110,7 +2108,6 @@ Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: http
                  case 'nekopoi3':
                  if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
 qute = fs.readFileSync('./media/Ryuu.jpg') 
 Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: https://www111.zippyshare.com/d/EK5uqIMh/566060/%5bNekoPoi%5d_Megane_no_Megami_-_01_%5b360P%5d_%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
@@ -2118,7 +2115,6 @@ Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: http
                  case 'nekopoi4':
                  if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
 qute = fs.readFileSync('./media/Ryuu.jpg') 
 Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: https://www109.zippyshare.com/d/2ebALhhS/463654/%5bNekoPoi%5d_Watashi_ga_Toriko_-_02%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
@@ -2126,7 +2122,6 @@ Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: http
                  case 'nekopoi5':
                  if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
 qute = fs.readFileSync('./media/Ryuu.jpg') 
 Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: https://www115.zippyshare.com/d/LmzOkRAI/313299/%5bNekoPoi%5d_Chichi-iro_Toiki_-_01_%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
@@ -2134,7 +2129,6 @@ Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: http
                  case 'nekopoi6':
                  if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
 qute = fs.readFileSync('./media/Ryuu.jpg') 
 Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: https://www89.zippyshare.com/d/SgEHvrJs/42812/%5bNekoPoi%5d_Chichi-iro_Toiki_-_02_%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
@@ -2142,15 +2136,12 @@ Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: http
                  case 'nekopoi7':
                  if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
 qute = fs.readFileSync('./media/Ryuu.jpg') 
 Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: https://www66.zippyshare.com/d/j0ivbciL/520411/%5bNekoPoi%5d_Onna_Maou_Melissa_no_H_na_Boukenki_-_01_%5b360P%5d_%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
                   break
                  case 'nekopoi8':
                  if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
-if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
 qute = fs.readFileSync('./media/Ryuu.jpg') 
 Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: https://www71.zippyshare.com/d/M225YIrR/535656/%5bNekoPoi%5d_Buta_no_Gotoki_Sanzoku_ni_Torawarete_Shojo_wo_Ubawareru_Kyonyuu_Himekishi_Onna_Senshi_-_01%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
@@ -2158,7 +2149,6 @@ Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: http
                  case 'nekopoi9':
                  if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
 qute = fs.readFileSync('./media/Ryuu.jpg') 
 Ryuu.sendMessage(from, qute, image, { quoted: ftrol, caption: 'NIH LINKNYA: https://www49.zippyshare.com/d/bdwYjaXS/605790/%5bNekoPoi%5d_Akebi_no_Hana___Maho_-_01_%5b360P%5d_%5bnekopoi.pro%5d.mp4\n\nNOTE SIAPKAN TISU'})
@@ -2565,7 +2555,6 @@ case 'blackpink':
                     break                
                 case 'nhentaipdf':
                 if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
-                if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
                     if (args.length == 0) return reply(`Example: ${prefix + command} 344253`)
                     henid = args[0]
                     get_result = await fetchJson(`https://api.lolhuman.xyz/api/nhentaipdf/${henid}?apikey=${lolkey}`)
@@ -2593,7 +2582,6 @@ case 'blackpink':
                     break
                 case 'nekopoi':
                 if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
-                if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
                     if (args.length == 0) return reply(`Example: ${prefix + command} https://nekopoi.care/isekai-harem-monogatari-episode-4-subtitle-indonesia/`)
                     ini_url = args[0]
                     get_result = await fetchJson(`https://api.lolhuman.xyz/api/nekopoi?apikey=${lolkey}&url=${ini_url}`)
@@ -2616,7 +2604,6 @@ case 'blackpink':
                     break
                 case 'nekopoisearch':
                 if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
-                if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
                     if (args.length == 0) return reply(`Example: ${prefix + command} Isekai Harem`)
                     query = args.join(" ")
                     get_result = await fetchJson(`https://api.lolhuman.xyz/api/nekopoisearch?apikey=${lolkey}&query=${query}`)
@@ -2882,7 +2869,6 @@ case 'hug':
 case 'solo':
 if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
           reply(mess.wait)
           anu = await fetchJson(`https://nekos.life/api/v2/img/${command}`)
@@ -2919,7 +2905,7 @@ if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}n
 case 'hentai2':
 if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return reply(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
+
 if (!isNsfw) return reply(`Fitur Nsfw Belum Aktif Di Grup Ini\nKetik: ${prefix}nsfw 1 \nUntuk Mengaktifkan`)
           reply(mess.wait)
           anu = await fetchJson(`https://waifu.pics/api/nsfw/neko`)
@@ -3854,7 +3840,7 @@ vcard3 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:BAYU OFC\n`
 + `ORG: Creator KAGUYA-BOT ;\n`
-+ `TEL;type=CELL;type=VOICE;waid=6283891921787:6283891921787\n`
++ `TEL;type=CELL;type=VOICE;waid=6283145831517:6283145831517\n`
 + 'END:VCARD'.trim()
 Ryuu.sendMessage(from, {displayName: `Creatornya ${botname}`, vcard: vcard3}, contact, 
 { quoted: troli, 
@@ -3898,7 +3884,6 @@ if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: trol
       case 'del':
       case 'd':
       if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
-            if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
             if (!isQuotedReply) return reply(`Reply pesan dari bot!!`)
             Ryuu.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: mek })
             break
@@ -4071,7 +4056,6 @@ if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: trol
 case 'tagall':
 if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return fakeyt(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 members_id = []
 teks = (args.length > 1) ? args.join(' ').trim() : ''
 teks += '\n\n'
@@ -4116,7 +4100,6 @@ break
 case 'hidetag':
 if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli})
 if (!isGroup) return fakeyt(mess.only.group)
-if (!isOwner && !mek.key.fromMe) return  reply(mess.only.owner)
 try {
 quotedText = mek.message.extendedTextMessage.contextInfo.quotedMessage.conversation
 hideTag(from, `${quotedText}`)
